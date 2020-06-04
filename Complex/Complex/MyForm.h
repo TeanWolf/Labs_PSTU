@@ -24,7 +24,7 @@ namespace Complex {
 			//TODO: добавьте код конструктора
 			//
 		}
-//TWMininV
+
 	protected:
 		/// <summary>
 		/// Освободить все используемые ресурсы.
@@ -65,7 +65,7 @@ namespace Complex {
 	private: System::Windows::Forms::TextBox^ Y2;
 
 
-
+//TWMininV
 	private: System::Windows::Forms::Label^ label7;
 	private: System::Windows::Forms::Label^ label8;
 	private: System::Windows::Forms::TextBox^ Y;
