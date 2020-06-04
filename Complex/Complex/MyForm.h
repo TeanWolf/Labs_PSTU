@@ -24,7 +24,7 @@ namespace Complex {
 			//TODO: добавьте код конструктора
 			//
 		}
-
+//TWMininV
 	protected:
 		/// <summary>
 		/// Освободить все используемые ресурсы.
