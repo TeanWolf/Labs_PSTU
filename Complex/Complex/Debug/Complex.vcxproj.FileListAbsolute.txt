@@ -1,0 +1,3 @@
+C:\Users\Валентин\source\repos\Complex\Complex\Debug\Complex.vcxprojAssemblyReference.cache
+C:\Users\Валентин\source\repos\Complex\Complex\Debug\Complex.MyForm.resources
+C:\Users\Валентин\source\repos\Complex\Complex\Debug\Complex.vcxproj.GenerateResource.cache
