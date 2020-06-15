@@ -1,0 +1,48 @@
+﻿  Main.cpp
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(495,25): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(499,19): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(500,19): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(509,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(510,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(523,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(524,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(536,23): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(536,15): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Main.cpp(180,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Main.cpp(181,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Main.cpp(182,12): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(381,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(379): message : во время компиляции функции-члена класс шаблон "void Tree<int>::printVTree(int)"
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Main.cpp(201): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Tree<int>::printVTree(int)"
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Main.cpp(53): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Tree<int>"
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(424,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(329,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(325): message : во время компиляции функции-члена класс шаблон "Tree<int> *Tree<int>::ToSearchTree(void)"
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Main.cpp(202): message : выполняется компиляция ссылки на экземпляр шаблон функции "Tree<int> *Tree<int>::ToSearchTree(void)"
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Main.cpp(96,15): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Main.cpp(78): message : выполняется компиляция ссылки на экземпляр шаблон функции "void display<T>(void)"
+          with
+          [
+              T=int
+          ]
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(453): message : выполняется компиляция ссылки на экземпляр шаблон функции "void initWindow<T>(int,char **)"
+          with
+          [
+              T=int
+          ]
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(445): message : во время компиляции функции-члена класс шаблон "void Tree<int>::drawTree(int,char **,int,int,int,int)"
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Main.cpp(203): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Tree<int>::drawTree(int,char **,int,int,int,int)"
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(539,20): warning C4018: <: несоответствие типов со знаком и без знака
+  Tree.cpp
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(495,25): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(499,19): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(500,19): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(509,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(510,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(523,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(524,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(536,23): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(536,15): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+  Создание кода...
+C:\Users\psovs\source\repos\App\Лаба 30 Добрынин\Tree.cpp(348): warning C4715: Tree<int>::help_countNodsLevel: значение возвращается не при всех путях выполнения
+  Лаба 30 Добрынин.vcxproj -> C:\Users\psovs\source\repos\App\Debug\Лаба 30 Добрынин.exe
