@@ -17,7 +17,7 @@ list* init(int n)
 	lst = new list;
 	lst->next = NULL;
 	lst->prev = NULL;
-	cout << "\nÂâåäèòå ıëåìåíòû:";
+	cout << "\nĞ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ñ‹:";
 	cin >> lst->field;
 	p = lst;
 	for (int i = 1; i < n; i++)
@@ -34,7 +34,7 @@ list* init(int n)
 }
 void listprint(list* lst)
 {
-	cout << "\nÍà÷àëüíûé ìàññèâ: ";
+	cout << "\nĞĞ°Ñ‡Ğ°Ğ»ÑŒĞ½Ñ‹Ğ¹ Ğ¼Ğ°ÑÑĞ¸Ğ²: ";
 	list* p;
 	p = lst;
 	do {
@@ -64,7 +64,7 @@ list* add(list* lst, double symbol, double given_data) {
 }
 void print_list(list* lst)
 {
-	cout << "Êîíå÷íûé ìàññèâ: ";
+	cout << "ĞšĞ¾Ğ½ĞµÑ‡Ğ½Ñ‹Ğ¹ Ğ¼Ğ°ÑÑĞ¸Ğ²: ";
 	list* p;
 	p = lst;
 	do {
@@ -76,16 +76,16 @@ void print_list(list* lst)
 int main()
 {
 	setlocale(LC_ALL, "RUS");
-	cout << "Ââåäèòå êîëè÷åñòâî ıëåìåíòîâ:";
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ĞºĞ¾Ğ»Ğ¸Ñ‡ĞµÑÑ‚Ğ²Ğ¾ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ğ¾Ğ²:";
 	cin >> n;
 	list* lst = init(n);
 	listprint(lst);
 
 	double symbol, new_data;
 
-	cout << "\nÂâåäèòå çíà÷åíèå èíôîğìàöèîííîãî ïîëÿ: ";
+	cout << "\nĞ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ Ğ¸Ğ½Ñ„Ğ¾Ñ€Ğ¼Ğ°Ñ†Ğ¸Ğ¾Ğ½Ğ½Ğ¾Ğ³Ğ¾ Ğ¿Ğ¾Ğ»Ñ: ";
 	cin >> symbol;
-	cout << "\nÂâåäèòå çíà÷åíèå íîâîãî ıëåìåíòà: ";
+	cout << "\nĞ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ·Ğ½Ğ°Ñ‡ĞµĞ½Ğ¸Ğµ Ğ½Ğ¾Ğ²Ğ¾Ğ³Ğ¾ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ğ°: ";
 	cin >> new_data;
 
 	list* new_list = add(lst, symbol, new_data);
