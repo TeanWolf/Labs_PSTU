@@ -60,7 +60,7 @@ Graph<T>::~Graph() {
 template<class T>
 void Graph<T>::Print() {
 	if (!this->isEmpty()) {
-		cout << "Ìàòðèöà ñìåæíîñòè ãðàôà: " << endl;
+		cout << "ÐœÐ°Ñ‚Ñ€Ð¸Ñ†Ð° ÑÐ¼ÐµÐ¶Ð½Ð¾ÑÑ‚Ð¸ Ð³Ñ€Ð°Ñ„Ð°:" << endl;
 		for (int i = 0, vertListSize = this->vertList.size(); i < vertListSize; ++i) {
 			cout << this->vertList[i] << " ";
 			for (int j = 0; j < vertListSize; ++j) {
@@ -76,7 +76,7 @@ void Graph<T>::Print() {
 		}
 	}
 	else {
-		cout << "Ãðàô ïóñò " << endl;
+		cout << "Ð“Ñ€Ð°Ñ„ Ð¿ÑƒÑÑ‚" << endl;
 	}
 }
 template <class T>
@@ -140,7 +140,7 @@ void Graph<T>::addVertex(const T& vertex) {
 		this->vertList.push_back(vertex);
 	}
 	else {
-		cout << "Ãðàô óæå çàïîëíåí. Íåâîçìîæíî äîáàâèòü íîâóþ âåðøèíó " << endl;
+		cout << "Ð“Ñ€Ð°Ñ„ ÑƒÐ¶Ðµ Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½. ÐÐµÐ²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ð½Ð¾Ð²ÑƒÑŽ Ð²ÐµÑ€ÑˆÐ¸Ð½Ñƒ " << endl;
 		return;
 	}
 }
@@ -150,7 +150,7 @@ void Graph<T>::addEdge(const T& vertex1, const T& vertex2, int weight) {
 		int vertPos1 = GetVertPos(vertex1);
 		int vertPos2 = GetVertPos(vertex2);
 		if (this->Matrix[vertPos1][vertPos2] != 0) {
-			cout << "Ðåáðî ìåæäó ýòèìè âåðøèíàìè óæå ñóùåñòâóåò" << endl;
+			cout << "Ð ÐµÐ±Ñ€Ð¾ Ð¼ÐµÐ¶Ð´Ñƒ ÑÑ‚Ð¸Ð¼Ð¸ Ð²ÐµÑ€ÑˆÐ¸Ð½Ð°Ð¼Ð¸ ÑƒÐ¶Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚" << endl;
 			return;
 		}
 		else {
@@ -158,7 +158,7 @@ void Graph<T>::addEdge(const T& vertex1, const T& vertex2, int weight) {
 		}
 	}
 	else {
-		cout << "Îáåèõ âåðøèí (èëè îäíîé èç íèõ) íåò â ãðàôå " << endl;
+		cout << "ÐžÐ±ÐµÐ¸Ñ… Ð²ÐµÑ€ÑˆÐ¸Ð½ (Ð¸Ð»Ð¸ Ð¾Ð´Ð½Ð¾Ð¹ Ð¸Ð· Ð½Ð¸Ñ…) Ð½ÐµÑ‚ Ð² Ð³Ñ€Ð°Ñ„Ðµ " << endl;
 		return;
 	}
 }
@@ -214,7 +214,7 @@ int Graph<T>::Dijkstra(T& startVert) {
 		}
 		for (int i = 0; i < vertList.size(); i++) {
 			if (vertList[i] != startVert) {
-				cout << "Êðàò÷àéøåå ðàññòîÿíèå îò " << startVert <<" âåðøèíû äî " << vertList[i] << " âåðøèíû =" << labelList[i] << endl;
+				cout << "ÐšÑ€Ð°Ñ‚Ñ‡Ð°Ð¹ÑˆÐµÐµ Ñ€Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð¾Ñ‚ " << startVert <<" Ð²ÐµÑ€ÑˆÐ¸Ð½Ñ‹ Ð´Ð¾ " << vertList[i] << " Ð²ÐµÑ€ÑˆÐ¸Ð½Ñ‹ =" << labelList[i] << endl;
 			}
 		}
 		return 0;
