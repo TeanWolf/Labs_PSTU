@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 #include <glut.h>
 #include <iostream>
 #include<vector>
@@ -66,7 +65,7 @@ void Graph<T>::Print() {
 			for (int j = 0; j < vertListSize; ++j) {
 				cout << " ";
 				if (i == j) {
-					cout << "M" << "\t";
+					cout << "*" << "\t";
 				}
 				else {
 					cout << this->Matrix[i][j] << "\t";
