@@ -42,7 +42,7 @@ static void mouseClick(int btn, int stat, int x, int y) {
 	if (stat == GLUT_DOWN) {
 		int k;
 		if (x > SHIFT && x < 200 && y > SHIFT && y < 40) {
-			cout << "Çíà÷åíèå:";
+			cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ:";
 			cin >> k;
 			temp->insertNode(k);
 		}
@@ -51,13 +51,13 @@ static void mouseClick(int btn, int stat, int x, int y) {
 		}
 		if (x > SHIFT && x < 200 && y > SHIFT + 100 && y < SHIFT + 140) {
 			int n;
-			cout << "Íîìåð óðîâíÿ:";
+			cout << "ÐÐ¾Ð¼ÐµÑ€ ÑƒÑ€Ð¾Ð²Ð½Ñ:";
 			cin >> n;
 			if (n <= temp->getHeight() - 1) {
-				cout << "Êîëè÷åñòâî óçëîâ íà óðîâíå:" << n << " : " << glutContext.tree->countNodsLevel(n) << "\n";
+				cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑƒÐ·Ð»Ð¾Ð² Ð½Ð° ÑƒÑ€Ð¾Ð²Ð½Ðµ:" << n << " : " << glutContext.tree->countNodsLevel(n) << "\n";
 			}
 			else {
-				cout << "Òàêîãî óðîâíÿ íåò!\n";
+				cout << "Ð¢Ð°ÐºÐ¾Ð³Ð¾ ÑƒÑ€Ð¾Ð²Ð½Ñ Ð½ÐµÑ‚!\n";
 			}
 		}
 	}
@@ -69,7 +69,7 @@ void initWindow(int argc, char** argv) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
 	glutInitWindowSize(glutContext.window_width, glutContext.window_height);
-	glutSetWindow(glutCreateWindow("Äåðåâî"));
+	glutSetWindow(glutCreateWindow("Ð”ÐµÑ€ÐµÐ²Ð¾"));
 	glutDisplayFunc(display<T>);
 	glutReshapeFunc(reshape);
 	glutPassiveMotionFunc(mouseMove<T>);
@@ -184,12 +184,12 @@ int getPoss(int index, int width, int curLevel, int maxLevel) {
 int main(int argc, char** argv) {
 	setlocale(LC_ALL, "RUS");
 	Tree<int>* tree = NULL;
-	cout << "Çàäàíèÿ\n";
-	cout << "1)Äîáàâèòü ýëåìåíò\n";
-	cout << "2)Óäàëèòü âñå ÷åòíûå ýëåìåíòû\n";
-	cout << "3)Êîëè÷åñòâî âåðøèí íà óðîâíå\n";
+	cout << "Ð—Ð°Ð´Ð°Ð½Ð¸Ñ\n";
+	cout << "1)Ð”Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚\n";
+	cout << "2)Ð£Ð´Ð°Ð»Ð¸Ñ‚ÑŒ Ð²ÑÐµ Ñ‡ÐµÑ‚Ð½Ñ‹Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹\n";
+	cout << "3)ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð²ÐµÑ€ÑˆÐ¸Ð½ Ð½Ð° ÑƒÑ€Ð¾Ð²Ð½Ðµ\n";
 	int n;
-	cout << "Êîëè÷åñòâî ýëåìåíòîâ:";
+	cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²:";
 	cin >> n;
 	tree = tree->balancedTree(n);
 	tree->printVTree(1);
