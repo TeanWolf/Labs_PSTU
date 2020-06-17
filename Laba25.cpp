@@ -27,9 +27,9 @@ public:
     }
     void change()
     {								
-        cout << "Ââåäèòå íîâûå çíà÷åíèÿ first: ";
+        cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ñ‹Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ first: ";
         cin >> first;
-            cout << " Ââåäèòå íîâûå çíà÷åíèÿ second:";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ñ‹Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ second:";
             cin >> second;
     }
 
@@ -69,11 +69,11 @@ int main() {
     users_class method;																						
     RECTANGLE gh;
     do {
-        cout << "Ïåðåìåííûå èíèöèàëèçèðîâàíû êàê: " << method.first << " è " << method.second << endl;		
-        cout << "1.Ïîìåíÿòü çíà÷åíèå ïåðåìåííûõ" << endl;
-        cout << "2.Âû÷èñëèòü ïðîèçâåäåíèå äâóõ ÷èñåë" << endl;
-        cout << "3.Âû÷èñëèòü ãèïîòåíóçó" << endl;
-        cout << "4.Âûõîä" << endl;
+        cout << "ÐŸÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ñ‹Ðµ Ð¸Ð½Ð¸Ñ†Ð¸Ð°Ð»Ð¸Ð·Ð¸Ñ€Ð¾Ð²Ð°Ð½Ñ‹ ÐºÐ°Ðº: " << method.first << " Ã¨ " << method.second << endl;		
+        cout << "1.ÐŸÐ¾Ð¼ÐµÐ½ÑÑ‚ÑŒ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ñ‹Ñ…" << endl;
+        cout << "2.Ð’Ñ‹Ñ‡Ð¸ÑÐ»Ð¸Ñ‚ÑŒ Ð¿Ñ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ð´Ð²ÑƒÑ… Ñ‡Ð¸ÑÐµÐ»" << endl;
+        cout << "3.Ð’Ñ‹Ñ‡Ð¸ÑÐ»Ð¸Ñ‚ÑŒ Ð³Ð¸Ð¿Ð¾Ñ‚ÐµÐ½ÑƒÐ·Ñƒ" << endl;
+        cout << "4.Ð’Ñ‹Ñ…Ð¾Ð´" << endl;
         cin >> n;																							
         switch (n) {
         case 1:
@@ -81,11 +81,11 @@ int main() {
             break;
         case 2:
             UMNOZ = method.composition(method.first, method.second);								
-            cout<<"Ïðîèçâåäåíèå:" << UMNOZ << endl;																
+            cout<<"ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ:" << UMNOZ << endl;																
             break;
         case 3:
             gip = gh.gipotinuza(method.c, method.first, method.second);
-            cout << "Ãèïîòåíóçà: " << gip << endl;
+            cout << "Ð“Ð¸Ð¿Ð¾Ñ‚ÐµÐ½ÑƒÐ·Ð°:" << gip << endl;
 
             break;
         }
