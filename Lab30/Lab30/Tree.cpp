@@ -123,7 +123,7 @@ void Tree<T>::insertRight(T dt) {
 template <class T>
 Tree<T>* Tree<T>::balancedTree(int n) {
 	if (n == 0) return NULL;
-	cout << "Çíà÷åíèå:";
+	cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ:";
 	T dt;
 	cin >> dt;
 	Tree<T>* tree = new Tree<T>(dt);
