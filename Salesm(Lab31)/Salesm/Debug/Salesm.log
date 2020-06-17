@@ -1,0 +1,43 @@
+﻿  Main.cpp
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(251,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(252,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(289,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(312,11): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(313,11): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(317,10): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(318,10): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(322,17): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(322,13): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(183,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(175): message : во время компиляции функции-члена класс шаблон "int Graph<char>::Dijkstra(T &)"
+          with
+          [
+              T=char
+          ]
+C:\Users\Валентин\source\repos\Salesm\Salesm\Main.cpp(28): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<char>::Dijkstra(T &)"
+          with
+          [
+              T=char
+          ]
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(351): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Graph<char>"
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(194,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(209,22): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(215,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(84,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(83): message : во время компиляции функции-члена класс шаблон "int Graph<char>::GetVertPos(const T &)"
+          with
+          [
+              T=char
+          ]
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(149): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<char>::GetVertPos(const T &)"
+          with
+          [
+              T=char
+          ]
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(48): message : во время компиляции функции-члена класс шаблон "Graph<char>::Graph(void)"
+C:\Users\Валентин\source\repos\Salesm\Salesm\Main.cpp(4): message : выполняется компиляция ссылки на экземпляр шаблон функции "Graph<char>::Graph(void)"
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(225,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(224): message : во время компиляции функции-члена класс шаблон "bool Graph<char>::allVisit(bool *)"
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(188): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool Graph<char>::allVisit(bool *)"
+C:\Users\Валентин\source\repos\Salesm\Salesm\Graph.h(222): warning C4715: Graph<char>::Dijkstra: значение возвращается не при всех путях выполнения
+  Salesm.vcxproj -> C:\Users\Валентин\source\repos\Salesm\Debug\Salesm.exe
