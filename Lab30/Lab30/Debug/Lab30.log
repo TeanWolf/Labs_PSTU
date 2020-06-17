@@ -1,0 +1,11 @@
+﻿  Tree.cpp
+C:\Users\Валентин\source\repos\Lab30\Lab30\Tree.cpp(477,25): warning C4305: аргумент: усечение из "double" в "GLfloat"
+C:\Users\Валентин\source\repos\Lab30\Lab30\Tree.cpp(481,19): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\Lab30\Lab30\Tree.cpp(482,19): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\Lab30\Lab30\Tree.cpp(491,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\Lab30\Lab30\Tree.cpp(492,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\Lab30\Lab30\Tree.cpp(505,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\Lab30\Lab30\Tree.cpp(506,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\Lab30\Lab30\Tree.cpp(518,23): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+C:\Users\Валентин\source\repos\Lab30\Lab30\Tree.cpp(518,15): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+  Lab30.vcxproj -> C:\Users\Валентин\source\repos\Lab30\Debug\Lab30.exe
