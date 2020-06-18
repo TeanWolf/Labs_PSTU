@@ -13,34 +13,34 @@ vertCoord vertC[20];
 Graph<int> makeGraph() {
 	Graph<int>graph;
 	int amountofVerts, amountofEdges, vertex, sourceVertex, targetVertex, edgeWeight;
-	cout << "Ââåäèòå êîëè÷åñòâî âåðøèí ãðàôà:";cin>> amountofVerts;
-	cout << "Ââåäèòå êîëè÷åñòâî ðåáåð ãðàôà:"; cin >> amountofEdges;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð²ÐµÑ€ÑˆÐ¸Ð½ Ð³Ñ€Ð°Ñ„Ð°:";cin>> amountofVerts;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ€ÐµÐ±ÐµÑ€ Ð³Ñ€Ð°Ñ„Ð°:"; cin >> amountofEdges;
 	int count=0;
 	for (int i = 0; i < amountofVerts; ++i) 
 	{
 		count++;
-		cout << "Âåðøèíà:";
+		cout << "Ð’ÐµÑ€ÑˆÐ¸Ð½Ð°:";
 		cin>> vertex;
 		int* vertPtr = &vertex;
 		graph.InsertVertex(*vertPtr);
 	}
 	for (int i = 0; i < amountofEdges; ++i) 
 	{
-		cout << "Èñõîäíàÿ âåðøèíà: ";
+		cout << "Ð˜ÑÑ…Ð¾Ð´Ð½Ð°Ñ Ð²ÐµÑ€ÑˆÐ¸Ð½Ð°: ";
 		cin >> sourceVertex;
     int* sourceVertPtr = &sourceVertex;
 		
-	cout << "Êîíå÷íàÿ âåðøèíà: ";
+	cout << "ÐšÐ¾Ð½ÐµÑ‡Ð½Ð°Ñ Ð²ÐµÑ€ÑˆÐ¸Ð½Ð°: ";
 		cin >> targetVertex;
         int* targetVertPtr = &targetVertex;
 		
-		cout << "Âåñ ðåáðà: ";
+		cout << "Ð’ÐµÑ Ñ€ÐµÐ±Ñ€Ð°: ";
 		cin >> edgeWeight;
 		graph.InsertEdge(*sourceVertPtr, *targetVertPtr, edgeWeight);
 	}
 	cout << endl;
 	graph.Print();
-	cout << "Ââåäèòå ñòàðòîâóþ âåðøèíó:";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ð°Ñ€Ñ‚Ð¾Ð²ÑƒÑŽ Ð²ÐµÑ€ÑˆÐ¸Ð½Ñƒ:";
 	cin>> sourceVertex;
 	int* sourceVertPtr = &sourceVertex;
 	graph.Dijsktra(*sourceVertPtr);
