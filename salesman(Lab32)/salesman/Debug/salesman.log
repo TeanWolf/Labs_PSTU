@@ -1,0 +1,29 @@
+﻿  Main.cpp
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.h(234,24): warning C4091: extern : пропускается слева от "vertCoord", когда ни одна переменная не объявлена
+  Salesman.cpp
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.h(234,24): warning C4091: extern : пропускается слева от "vertCoord", когда ни одна переменная не объявлена
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(66,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(67,15): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(98,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(121,11): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(122,11): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(126,10): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(127,10): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(131,17): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(131,13): warning C4244: аргумент: преобразование "int" в "GLfloat", возможна потеря данных
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.h(53,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.h(52): message : во время компиляции функции-члена класс шаблон "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.h(128): message : выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::GetVertPos(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.h(40): message : во время компиляции функции-члена класс шаблон "Graph<int>::Graph(void)"
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(9): message : выполняется компиляция ссылки на экземпляр шаблон функции "Graph<int>::Graph(void)"
+C:\Users\Валентин\source\repos\salesman\salesman\Salesman.cpp(9): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Graph<int>"
+  Создание кода...
+  salesman.vcxproj -> C:\Users\Валентин\source\repos\salesman\Debug\salesman.exe
