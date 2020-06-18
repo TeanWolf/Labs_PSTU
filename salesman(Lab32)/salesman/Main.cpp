@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
 
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
 	glutInitWindowSize(900, 720);
-	glutCreateWindow("Ãðàô");
+	glutCreateWindow("Ð“Ñ€Ð°Ñ„");
 	WinW = glutGet(GLUT_WINDOW_WIDTH);
 	WinH = glutGet(GLUT_WINDOW_HEIGHT);
 	glutDisplayFunc(display);
